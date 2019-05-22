@@ -1,0 +1,83 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:72cb3039-6c02-429d-802c-f417f9baf190 -->
+<metadata name="sf.com sso" path="/users/composite/admin/Salesforce/sf.com sso" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="OAuthConfig" type="NULL"/>
+  <attribute name="allornone" type="BOOLEAN">false</attribute>
+  <attribute name="apiversion" type="STRING">40.0</attribute>
+  <attribute name="bulkpollinginterval" type="STRING">500</attribute>
+  <attribute name="bulkquerytimeout" type="STRING">25</attribute>
+  <attribute name="cacheStatusAndTrackingDS" type="STRING"/>
+  <attribute name="callbackurl" type="STRING">http://localhost:33333</attribute>
+  <attribute name="commitOnFetchDone" type="BOOLEAN">true</attribute>
+  <attribute name="connCheckOutProcedure" type="STRING"/>
+  <attribute name="connPoolMaxSize" type="INTEGER">100</attribute>
+  <attribute name="connPoolMinSize" type="INTEGER">0</attribute>
+  <attribute name="connPoolTimeout" type="INTEGER">30</attribute>
+  <attribute name="connStaleTimeout" type="INTEGER">60</attribute>
+  <attribute name="connValidateQuery" type="STRING"/>
+  <attribute name="creationDate" type="LONG">1558440009295</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="driverName" type="STRING">Salesforce with SSO</attribute>
+  <attribute name="ds.conn_checkout_timeout" type="INTEGER">45</attribute>
+  <attribute name="execTimeout" type="INTEGER">0</attribute>
+  <attribute name="firewallport" type="STRING"/>
+  <attribute name="firewallserver" type="STRING"/>
+  <attribute name="firewalltype" type="STRING">NONE</attribute>
+  <attribute name="firewalluser" type="STRING"/>
+  <attribute name="initiateoauth" type="STRING">GETANDREFRESH</attribute>
+  <attribute name="isEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="jdbcds.comparisons_case_insensitive" type="BOOLEAN">false</attribute>
+  <attribute name="jdbcds.ignore_case_sensitivity_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.ignore_trailing_spaces_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.no_support_query_timeout" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.trailing_spaces_included_in_comparison" type="BOOLEAN">true</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1558517861359</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="location" type="STRING"/>
+  <attribute name="loginurl" type="STRING"/>
+  <attribute name="maxrows" type="STRING">-1</attribute>
+  <attribute name="name" type="STRING">sf.com sso</attribute>
+  <attribute name="oauthaccesstoken" type="STRING">6Cel800Df4000000mlVB888f4000001PGu7qE7B3IsfmiD0krbh15BPrCwwoglOX5gelXdL36dIyT4IUKeSMJfTklUm2rbxKB5pByziuLv7</attribute>
+  <attribute name="oauthclientid" type="STRING">3MVG9zlTNB8o8BA0zlniA7uayWKddYvSJwmqH1Wn6kIiftUgAJl806P2AY7JtoxaCQUKvaCSh40P1WiGL8.H5</attribute>
+  <attribute name="oauthclientsecret" type="PASSWORD_STRING">ENC(DXk+KBWK6ZorUhTADBIaWw==$ekcA67Eeb4KYIhNaj7+ksw4415pWE4Cif08A9gNOiUmOnVH5tzOMUaA4Iba4PQP98iR/Yw5z8CT+9zGbDf2r/4BLa1hKvPOVvg+By58TKqk=)</attribute>
+  <attribute name="oauthrefreshtoken" type="STRING"/>
+  <attribute name="oauthserverurl" type="STRING"/>
+  <attribute name="oauthsettingslocation" type="STRING">%APPDATA%\CData\Salesforce Data Provider\OAuthSettings.txt</attribute>
+  <attribute name="oauthverifier" type="STRING"/>
+  <attribute name="other" type="STRING"/>
+  <attribute name="password" type="PASSWORD_STRING">ENC(BUOi7v8cfaau+FYF3y3nBg==$+pauTvbr4kTVoqPdzD97JF//Nx9TnsihCUB3kEzJmN4=)</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="proxyauthscheme" type="STRING">BASIC</attribute>
+  <attribute name="proxyautodetect" type="BOOLEAN">true</attribute>
+  <attribute name="proxyexceptions" type="STRING"/>
+  <attribute name="proxyport" type="STRING">80</attribute>
+  <attribute name="proxyserver" type="STRING"/>
+  <attribute name="proxyssltype" type="STRING">AUTO</attribute>
+  <attribute name="proxyuser" type="STRING"/>
+  <attribute name="readonly" type="BOOLEAN">false</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1558440009295</attribute>
+  <attribute name="securitytoken" type="STRING">LwQd0hvwBa9K1VTpIPspb6cR</attribute>
+  <attribute name="sessiontimeout" type="STRING">10</attribute>
+  <attribute name="sslclientcert" type="STRING"/>
+  <attribute name="sslclientcertsubject" type="STRING">*</attribute>
+  <attribute name="sslclientcerttype" type="STRING">USER</attribute>
+  <attribute name="sslservercert" type="STRING"/>
+  <attribute name="ssologinurl" type="STRING"/>
+  <attribute name="ssoproperties" type="STRING"/>
+  <attribute name="ssotokenurl" type="STRING"/>
+  <attribute name="timeout" type="STRING">60</attribute>
+  <attribute name="txnIsolationLevel" type="STRING">Read Committed</attribute>
+  <attribute name="type" type="STRING">crm_erp</attribute>
+  <attribute name="url" type="STRING">Salesforce</attribute>
+  <attribute name="usebulkapi" type="BOOLEAN">true</attribute>
+  <attribute name="user" type="STRING">helghazali@tibco.com</attribute>
+  <attribute name="usesandbox" type="BOOLEAN">false</attribute>
+</metadata>

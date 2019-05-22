@@ -1,0 +1,608 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:72cb3039-6c02-429d-802c-f417f9baf190 -->
+<metadata name="Account" path="/users/composite/admin/Salesforce/sf.com sso/Account" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <annotation>Account</annotation>
+  <columns>
+    <column name="Id" nullable="false">
+      <datatype name="VARCHAR" extendedName="VARCHAR(18)" subType="DATASOURCE_TYPE" type="STRING" maxLength="18"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account ID corresponds to this field.</annotation>
+    </column>
+    <column name="IsDeleted" nullable="false">
+      <datatype name="BIT" extendedName="BIT" subType="DATASOURCE_TYPE" type="INTEGER" minValue="0" maxValue="1"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Deleted corresponds to this field.</annotation>
+    </column>
+    <column name="MasterRecordId" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(18)" subType="DATASOURCE_TYPE" type="STRING" maxLength="18"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Master Record ID corresponds to this field.</annotation>
+    </column>
+    <column name="Name" nullable="false">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Name corresponds to this field.</annotation>
+    </column>
+    <column name="Type" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Type corresponds to this field.</annotation>
+    </column>
+    <column name="ParentId" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(18)" subType="DATASOURCE_TYPE" type="STRING" maxLength="18"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Parent Account ID corresponds to this field.</annotation>
+    </column>
+    <column name="BillingStreet" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing Street corresponds to this field.</annotation>
+    </column>
+    <column name="BillingCity" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing City corresponds to this field.</annotation>
+    </column>
+    <column name="BillingState" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(80)" subType="DATASOURCE_TYPE" type="STRING" maxLength="80"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing State/Province corresponds to this field.</annotation>
+    </column>
+    <column name="BillingPostalCode" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing Zip/Postal Code corresponds to this field.</annotation>
+    </column>
+    <column name="BillingCountry" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(80)" subType="DATASOURCE_TYPE" type="STRING" maxLength="80"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing Country corresponds to this field.</annotation>
+    </column>
+    <column name="BillingLatitude" nullable="true">
+      <datatype name="DOUBLE" extendedName="DOUBLE(18,15)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" maxFractionalDigits="15"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing Latitude corresponds to this field.</annotation>
+    </column>
+    <column name="BillingLongitude" nullable="true">
+      <datatype name="DOUBLE" extendedName="DOUBLE(18,15)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" maxFractionalDigits="15"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing Longitude corresponds to this field.</annotation>
+    </column>
+    <column name="BillingGeocodeAccuracy" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Billing Geocode Accuracy corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingStreet" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping Street corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingCity" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping City corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingState" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(80)" subType="DATASOURCE_TYPE" type="STRING" maxLength="80"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping State/Province corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingPostalCode" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping Zip/Postal Code corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingCountry" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(80)" subType="DATASOURCE_TYPE" type="STRING" maxLength="80"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping Country corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingLatitude" nullable="true">
+      <datatype name="DOUBLE" extendedName="DOUBLE(18,15)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" maxFractionalDigits="15"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping Latitude corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingLongitude" nullable="true">
+      <datatype name="DOUBLE" extendedName="DOUBLE(18,15)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" maxFractionalDigits="15"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping Longitude corresponds to this field.</annotation>
+    </column>
+    <column name="ShippingGeocodeAccuracy" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Shipping Geocode Accuracy corresponds to this field.</annotation>
+    </column>
+    <column name="Phone" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Phone corresponds to this field.</annotation>
+    </column>
+    <column name="Fax" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Fax corresponds to this field.</annotation>
+    </column>
+    <column name="AccountNumber" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Number corresponds to this field.</annotation>
+    </column>
+    <column name="Website" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Website corresponds to this field.</annotation>
+    </column>
+    <column name="PhotoUrl" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Photo URL corresponds to this field.</annotation>
+    </column>
+    <column name="Sic" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label SIC Code corresponds to this field.</annotation>
+    </column>
+    <column name="Industry" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Industry corresponds to this field.</annotation>
+    </column>
+    <column name="AnnualRevenue" nullable="true">
+      <datatype name="DOUBLE" extendedName="DOUBLE(18,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" maxFractionalDigits="0"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Annual Revenue corresponds to this field.</annotation>
+    </column>
+    <column name="NumberOfEmployees" nullable="true">
+      <datatype name="INTEGER" extendedName="INTEGER" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Employees corresponds to this field.</annotation>
+    </column>
+    <column name="Ownership" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Ownership corresponds to this field.</annotation>
+    </column>
+    <column name="TickerSymbol" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Ticker Symbol corresponds to this field.</annotation>
+    </column>
+    <column name="Description" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(32000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32000"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Description corresponds to this field.</annotation>
+    </column>
+    <column name="Rating" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Rating corresponds to this field.</annotation>
+    </column>
+    <column name="Site" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(80)" subType="DATASOURCE_TYPE" type="STRING" maxLength="80"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Site corresponds to this field.</annotation>
+    </column>
+    <column name="OwnerId" nullable="false">
+      <datatype name="VARCHAR" extendedName="VARCHAR(18)" subType="DATASOURCE_TYPE" type="STRING" maxLength="18"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Owner ID corresponds to this field.</annotation>
+    </column>
+    <column name="CreatedDate" nullable="false">
+      <datatype name="TIMESTAMP" extendedName="TIMESTAMP" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Created Date corresponds to this field.</annotation>
+    </column>
+    <column name="CreatedById" nullable="false">
+      <datatype name="VARCHAR" extendedName="VARCHAR(18)" subType="DATASOURCE_TYPE" type="STRING" maxLength="18"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Created By ID corresponds to this field.</annotation>
+    </column>
+    <column name="LastModifiedDate" nullable="false">
+      <datatype name="TIMESTAMP" extendedName="TIMESTAMP" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Last Modified Date corresponds to this field.</annotation>
+    </column>
+    <column name="LastModifiedById" nullable="false">
+      <datatype name="VARCHAR" extendedName="VARCHAR(18)" subType="DATASOURCE_TYPE" type="STRING" maxLength="18"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Last Modified By ID corresponds to this field.</annotation>
+    </column>
+    <column name="SystemModstamp" nullable="false">
+      <datatype name="TIMESTAMP" extendedName="TIMESTAMP" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label System Modstamp corresponds to this field.</annotation>
+    </column>
+    <column name="LastActivityDate" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Last Activity corresponds to this field.</annotation>
+    </column>
+    <column name="LastViewedDate" nullable="true">
+      <datatype name="TIMESTAMP" extendedName="TIMESTAMP" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Last Viewed Date corresponds to this field.</annotation>
+    </column>
+    <column name="LastReferencedDate" nullable="true">
+      <datatype name="TIMESTAMP" extendedName="TIMESTAMP" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Last Referenced Date corresponds to this field.</annotation>
+    </column>
+    <column name="Jigsaw" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Data.com Key corresponds to this field.</annotation>
+    </column>
+    <column name="JigsawCompanyId" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Jigsaw Company ID corresponds to this field.</annotation>
+    </column>
+    <column name="CleanStatus" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Clean Status corresponds to this field.</annotation>
+    </column>
+    <column name="AccountSource" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(40)" subType="DATASOURCE_TYPE" type="STRING" maxLength="40"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Account Source corresponds to this field.</annotation>
+    </column>
+    <column name="DunsNumber" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(9)" subType="DATASOURCE_TYPE" type="STRING" maxLength="9"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label D-U-N-S Number corresponds to this field.</annotation>
+    </column>
+    <column name="Tradestyle" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Tradestyle corresponds to this field.</annotation>
+    </column>
+    <column name="NaicsCode" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(8)" subType="DATASOURCE_TYPE" type="STRING" maxLength="8"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label NAICS Code corresponds to this field.</annotation>
+    </column>
+    <column name="NaicsDesc" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(120)" subType="DATASOURCE_TYPE" type="STRING" maxLength="120"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label NAICS Description corresponds to this field.</annotation>
+    </column>
+    <column name="YearStarted" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(4)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Year Started corresponds to this field.</annotation>
+    </column>
+    <column name="SicDesc" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(80)" subType="DATASOURCE_TYPE" type="STRING" maxLength="80"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label SIC Description corresponds to this field.</annotation>
+    </column>
+    <column name="DandbCompanyId" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(18)" subType="DATASOURCE_TYPE" type="STRING" maxLength="18"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label D&amp;B Company ID corresponds to this field.</annotation>
+    </column>
+    <column name="CustomerPriority__c" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Customer Priority corresponds to this field.</annotation>
+    </column>
+    <column name="SLA__c" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label SLA corresponds to this field.</annotation>
+    </column>
+    <column name="Active__c" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Active corresponds to this field.</annotation>
+    </column>
+    <column name="NumberofLocations__c" nullable="true">
+      <datatype name="DOUBLE" extendedName="DOUBLE(3,0)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="3" maxFractionalDigits="0"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Number of Locations corresponds to this field.</annotation>
+    </column>
+    <column name="UpsellOpportunity__c" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label Upsell Opportunity corresponds to this field.</annotation>
+    </column>
+    <column name="SLASerialNumber__c" nullable="true">
+      <datatype name="VARCHAR" extendedName="VARCHAR(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label SLA Serial Number corresponds to this field.</annotation>
+    </column>
+    <column name="SLAExpirationDate__c" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>Label SLA Expiration Date corresponds to this field.</annotation>
+    </column>
+  </columns>
+  <indexes>
+    <index name="Id" type="OTHER" unique="true">
+      <indexColumn name="Id" sortOrder="NONE"/>
+    </index>
+    <index name="Name" type="OTHER" unique="false">
+      <indexColumn name="Name" sortOrder="NONE"/>
+    </index>
+    <index name="ACCOUNT_PRIMARYKEY" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="Id" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys>
+    <foreignKey name="FK_Account_ParentId_REF_Account_Id" primaryKeyName="PK_Account_Id" primaryKeyTableName="/users/composite/CData/Salesforce/Account">
+      <foreignKeyColumn primaryColumnName="Id" foreignColumnName="ParentId"/>
+    </foreignKey>
+    <foreignKey name="FK_Account_MasterRecordId_REF_Account_Id" primaryKeyName="PK_Account_Id" primaryKeyTableName="/users/composite/CData/Salesforce/Account">
+      <foreignKeyColumn primaryColumnName="Id" foreignColumnName="MasterRecordId"/>
+    </foreignKey>
+  </foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/users/composite/CData/Salesforce/Account" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="1"></datatype>
+  </dependency>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:11:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:12:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:13:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:14:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:15:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:16:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:17:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:18:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:19:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:20:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:21:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:22:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:23:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:24:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:25:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:26:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:27:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:28:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:29:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:30:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:31:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:32:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:33:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:34:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:35:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:36:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:37:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:38:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:39:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:40:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:41:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:42:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:43:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:44:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:45:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:46:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:47:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:48:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:49:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:50:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:51:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:52:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:53:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:54:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:55:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:56:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:57:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:58:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:59:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:60:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:61:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:62:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1558513828228</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1558513828228</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1558513828228</attribute>
+</metadata>
